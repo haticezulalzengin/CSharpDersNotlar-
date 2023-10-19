@@ -15,7 +15,7 @@ namespace nyp_hafta_2
             this.Yas = gYas;
             this.Mesai = gMesai;
             this.Unvan = gUnvan;
-
+            //merhaba GitHub
         }
         public Personel(string gAd)
         {

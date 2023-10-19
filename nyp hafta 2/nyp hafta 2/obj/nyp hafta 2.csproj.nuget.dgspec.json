@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zülâl\\Desktop\\ders\\2.sınıf 1. dönem\\nesne yönelimli programlama\\nyp hafta 2\\nyp hafta 2\\nyp hafta 2.csproj": {}
+    "C:\\Users\\zülâl\\Desktop\\ders\\2.sınıf 1. dönem\\nesne yönelimli programlama\\CSharpDersNotlar-\\nyp hafta 2\\nyp hafta 2\\nyp hafta 2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zülâl\\Desktop\\ders\\2.sınıf 1. dönem\\nesne yönelimli programlama\\nyp hafta 2\\nyp hafta 2\\nyp hafta 2.csproj": {
+    "C:\\Users\\zülâl\\Desktop\\ders\\2.sınıf 1. dönem\\nesne yönelimli programlama\\CSharpDersNotlar-\\nyp hafta 2\\nyp hafta 2\\nyp hafta 2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zülâl\\Desktop\\ders\\2.sınıf 1. dönem\\nesne yönelimli programlama\\nyp hafta 2\\nyp hafta 2\\nyp hafta 2.csproj",
+        "projectUniqueName": "C:\\Users\\zülâl\\Desktop\\ders\\2.sınıf 1. dönem\\nesne yönelimli programlama\\CSharpDersNotlar-\\nyp hafta 2\\nyp hafta 2\\nyp hafta 2.csproj",
         "projectName": "nyp hafta 2",
-        "projectPath": "C:\\Users\\zülâl\\Desktop\\ders\\2.sınıf 1. dönem\\nesne yönelimli programlama\\nyp hafta 2\\nyp hafta 2\\nyp hafta 2.csproj",
+        "projectPath": "C:\\Users\\zülâl\\Desktop\\ders\\2.sınıf 1. dönem\\nesne yönelimli programlama\\CSharpDersNotlar-\\nyp hafta 2\\nyp hafta 2\\nyp hafta 2.csproj",
         "packagesPath": "C:\\Users\\zülâl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zülâl\\Desktop\\ders\\2.sınıf 1. dönem\\nesne yönelimli programlama\\nyp hafta 2\\nyp hafta 2\\obj\\",
+        "outputPath": "C:\\Users\\zülâl\\Desktop\\ders\\2.sınıf 1. dönem\\nesne yönelimli programlama\\CSharpDersNotlar-\\nyp hafta 2\\nyp hafta 2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zülâl\\AppData\\Roaming\\NuGet\\NuGet.Config",
