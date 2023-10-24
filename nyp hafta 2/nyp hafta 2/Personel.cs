@@ -24,8 +24,9 @@ namespace nyp_hafta_2
         
         int mesai;
         public int Mesai
-        { get { return mesai; } 
-       }   
+        {
+            get => mesai; set=>mesai = value;
+        }
 
         string ad;
 
@@ -48,8 +49,7 @@ namespace nyp_hafta_2
         }
         public void ucretHesapla(int ekUcret)
         {
-            int odenecek = this.mesai * 100 + ekUcret;
-            MessageBox.Show(odenecek.ToString());
+            MessageBox.Show((this.mesai * 100 + ekUcret).ToString());
 
         }
         

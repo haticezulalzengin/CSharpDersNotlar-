@@ -36,8 +36,9 @@
             yasTxt = new TextBox();
             button1 = new Button();
             label4 = new Label();
-            textBox1 = new TextBox();
+            mesaiTxt = new TextBox();
             comboBox1 = new ComboBox();
+            label5 = new Label();
             SuspendLayout();
             // 
             // label1
@@ -74,6 +75,7 @@
             adTxt.Size = new Size(125, 27);
             adTxt.TabIndex = 3;
             adTxt.Text = "zülal";
+            adTxt.TextChanged += adTxt_TextChanged;
             // 
             // adresTxt
             // 
@@ -107,17 +109,17 @@
             label4.AutoSize = true;
             label4.Location = new Point(294, 166);
             label4.Name = "label4";
-            label4.Size = new Size(50, 20);
+            label4.Size = new Size(48, 20);
             label4.TabIndex = 7;
-            label4.Text = "label4";
+            label4.Text = "Mesai";
             // 
-            // textBox1
+            // mesaiTxt
             // 
-            textBox1.Location = new Point(362, 163);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(125, 27);
-            textBox1.TabIndex = 8;
-            textBox1.TextChanged += textBox1_TextChanged;
+            mesaiTxt.Location = new Point(362, 163);
+            mesaiTxt.Name = "mesaiTxt";
+            mesaiTxt.Size = new Size(125, 27);
+            mesaiTxt.TabIndex = 8;
+            mesaiTxt.TextChanged += textBox1_TextChanged;
             // 
             // comboBox1
             // 
@@ -129,13 +131,23 @@
             comboBox1.TabIndex = 9;
             comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(294, 204);
+            label5.Name = "label5";
+            label5.Size = new Size(50, 20);
+            label5.TabIndex = 10;
+            label5.Text = "Unvan";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label5);
             Controls.Add(comboBox1);
-            Controls.Add(textBox1);
+            Controls.Add(mesaiTxt);
             Controls.Add(label4);
             Controls.Add(button1);
             Controls.Add(yasTxt);
@@ -162,7 +174,8 @@
         private TextBox yasTxt;
         private Button button1;
         private Label label4;
-        private TextBox textBox1;
+        private TextBox mesaiTxt;
         private ComboBox comboBox1;
+        private Label label5;
     }
 }

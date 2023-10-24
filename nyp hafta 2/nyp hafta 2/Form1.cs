@@ -5,12 +5,23 @@ namespace nyp_hafta_2
         public Form1()
         {
             InitializeComponent();
+            comboBox1.Items.Add("Ýþçi");
+            comboBox1.Items.Add("Mühendis");
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Personel pers = new Personel(adTxt.Text, adresTxt.Text, Convert.ToInt32(yasTxt.Text), Convert.ToInt32(mesaiTxt));
-            MessageBox.Show(pers.ucretHesapla().ToString());
+            Personel pers = new Personel(adTxt.Text, adresTxt.Text, Convert.ToInt32(yasTxt.Text), Convert.ToInt32(mesaiTxt.Text));
+            if (comboBox1.Text == "Ýþçi")
+
+            {
+                MessageBox.Show(pers.ucretHesapla().ToString());
+
+            }
+            else
+            {
+                pers.ucretHesapla(1000);
+            }
 
             //Personel prs2 = new Personel(adTxt.Text);
             //label1.Text = prs2.Ad;
@@ -44,6 +55,11 @@ namespace nyp_hafta_2
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void adTxt_TextChanged(object sender, EventArgs e)
         {
 
         }
